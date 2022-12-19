@@ -1,0 +1,16 @@
+{
+  "name": "meeti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compilar-sass": "sass --watch src/scss:build/css",
+    "build:sass":"purgecss --css build/css/style.css --content index.html --output build/css/meeti.css"
+  },
+  "author": "Dwight",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap": "^5.2.2",
+    "sass": "^1.55.0"
+  }
+}
